@@ -56,12 +56,12 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
-            { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg", imageAlt: "Hostel 26 bedroom" },
-            { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg", imageAlt: "Private room accommodation" },
-            { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg", imageAlt: "Double room comfort" },
-            { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg", imageAlt: "Shared hostel style room" },
-            { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg", imageAlt: "Modern hostel interior" },
-            { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg", imageAlt: "Common area lounge" }
+            { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg?_wi=1", imageAlt: "Hostel 26 bedroom" },
+            { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=1", imageAlt: "Private room accommodation" },
+            { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg?_wi=1", imageAlt: "Double room comfort" },
+            { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=1", imageAlt: "Shared hostel style room" },
+            { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=1", imageAlt: "Modern hostel interior" },
+            { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=1", imageAlt: "Common area lounge" }
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
@@ -95,9 +95,9 @@ export default function LandingPage() {
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           products={[
-            { id: "1", name: "Private Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg", imageAlt: "Private room with bed" },
-            { id: "2", name: "Double Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg", imageAlt: "Double room accommodation" },
-            { id: "3", name: "Shared Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg", imageAlt: "Shared hostel style room" }
+            { id: "1", name: "Private Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=2", imageAlt: "Private room with bed" },
+            { id: "2", name: "Double Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg?_wi=2", imageAlt: "Double room accommodation" },
+            { id: "3", name: "Shared Room", price: "Contact for rates", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=2", imageAlt: "Shared hostel style room" }
           ]}
         />
       </div>
@@ -111,7 +111,7 @@ export default function LandingPage() {
           description="Select your preferred dates and room type to check availability. Contact us for current pricing and special offers."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg?_wi=2"
           imageAlt="Booking reservation calendar"
           mediaAnimation="slide-up"
           mediaPosition="right"
@@ -193,7 +193,7 @@ export default function LandingPage() {
           carouselMode="buttons"
           blogs={[
             {
-              id: "1",              category: "Rooms",              title: "Comfortable Bedrooms",              excerpt: "Our clean and well-maintained private and shared rooms provide a comfortable retreat after exploring the city.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg",              imageAlt: "Hostel bedroom",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg",              date: "2025"
+              id: "1",              category: "Rooms",              title: "Comfortable Bedrooms",              excerpt: "Our clean and well-maintained private and shared rooms provide a comfortable retreat after exploring the city.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=2",              imageAlt: "Hostel bedroom",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg",              date: "2025"
             },
             {
               id: "2",              category: "Rooms",              title: "Modern Amenities",              excerpt: "Each room features modern furnishings and quality bedding to ensure a restful night's sleep.",              imageSrc: "http://img.b2bpic.net/free-photo/white-comfortable-pillow-decoration-interior-bedroom_74190-11125.jpg",              imageAlt: "Modern hostel room",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/portrait-cute-smiling-boy-cafe_23-2148436234.jpg",              date: "2025"
@@ -202,7 +202,7 @@ export default function LandingPage() {
               id: "3",              category: "Exterior",              title: "Welcoming Entrance",              excerpt: "Our distinctive exterior marks a warm welcome to travelers visiting Košice.",              imageSrc: "http://img.b2bpic.net/free-photo/city-building_23-2148107104.jpg",              imageAlt: "Hostel exterior",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/man-green-shirt-smiling-confident_23-2148401382.jpg",              date: "2025"
             },
             {
-              id: "4",              category: "Common Areas",              title: "Social Spaces",              excerpt: "Relax and meet fellow travelers in our comfortable common areas and lounge.",              imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg",              imageAlt: "Common area lounge",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg",              date: "2025"
+              id: "4",              category: "Common Areas",              title: "Social Spaces",              excerpt: "Relax and meet fellow travelers in our comfortable common areas and lounge.",              imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=2",              imageAlt: "Common area lounge",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg",              date: "2025"
             }
           ]}
         />
@@ -217,7 +217,7 @@ export default function LandingPage() {
           description="Have questions about booking? Need special accommodations? Our friendly team is here to help. Send us a message and we'll respond promptly."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg?_wi=3"
           imageAlt="Contact our team"
           mediaAnimation="slide-up"
           mediaPosition="left"
