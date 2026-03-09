@@ -45,27 +45,27 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroBillboardRotatedCarousel
           title="Hostel 26 – Pohodlný pobyt v Košiciach"
-          description="Cenovo dostupné a čisté ubytovanie neďaleko centra mesta s ochotným personálom a pohodlným prístupom k historickým pamätkam."
+          description="Cenovo dostupné a čisté ubytovanie blízko centra mesta s pomocným personálom a vhodným prístupom k historickým pamiatkom."
           background={{ variant: "sparkles-gradient" }}
           tag="Vitajte v Košiciach"
           tagIcon={MapPin}
           tagAnimation="slide-up"
           buttons={[
             { text: "Rezervovať pobyt", href: "#booking" },
-            { text: "Pozrieť izby", href: "#rooms" }
+            { text: "Pozrite si izby", href: "#rooms" }
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
             { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg?_wi=1", imageAlt: "Spálňa Hostelu 26" },
-            { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=1", imageAlt: "Súkromná izba" },
+            { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=1", imageAlt: "Súkromný apartmán" },
             { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg?_wi=1", imageAlt: "Dvojlôžková izba" },
-            { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=1", imageAlt: "Spoločná izba v hostelskom štýle" },
-            { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=1", imageAlt: "Moderný interiér hostelu" },
-            { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=1", imageAlt: "Spoločná zóna" }
+            { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=1", imageAlt: "Zdieľaný hostel štýlový pokoj" },
+            { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=1", imageAlt: "Moderný hostel interiér" },
+            { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=1", imageAlt: "Spoločný priestor lounge" }
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
-          ariaLabel="Hostel 26 hero sekcia"
+          ariaLabel="Heroická sekcia Hostelu 26"
         />
       </div>
 
@@ -74,10 +74,10 @@ export default function LandingPage() {
           tag="O Hosteli 26"
           tagIcon={Building2}
           tagAnimation="slide-up"
-          title="Hostel 26 je pohodlné a cenovo dostupné ubytovanie nachádzajúce sa na adrese Tolstého 22 v Košiciach, Slovensko. Ponúkame čisté izby a vhodnu polohu pre návštevníkov, ktorí chcú objavovať mesto. Hostia oceňujú náš ochotný personál, vynikajúci pomer ceny a kvality a blízkosť historického centra Košíc. Ideálne pre turistov, cestovateľov a návštevníkov hľadajúcich praktické a pohostinné ubytovanie."
+          title="Hostel 26 je pohodlné a cenovo dostupné ubytovanie nachádzajúce sa na Tolstého 22 v Košiciach, Slovensko. Ponúkame čisté izby a vhodné umiestnenie pre návštevníkov, ktorí chcú objaviť mesto. Hostia si cenia našu pomocnú obsluhu, výbornú cenu za peniaze a blízkosť historického centra Košíc. Ideálne pre turistov, cestovateľov a návštevníkov hľadajúcich praktické, vítajúce ubytovanie."
           useInvertedBackground={false}
           buttons={[
-            { text: "Zistiť viac", href: "#location" }
+            { text: "Zistite viac", href: "#location" }
           ]}
           buttonAnimation="slide-up"
         />
@@ -86,7 +86,7 @@ export default function LandingPage() {
       <div id="rooms" data-section="rooms">
         <ProductCardOne
           title="Naše izby"
-          description="Vyberte si z rôznych typov pohodlných izieb podľa vašich potrieb a rozpočtu. Každá izba je čistá, dobre udržiavaná a navrhnutá pre príjemný pobyt."
+          description="Vyberte si z rozmanitých typov izieb, ktoré vyhovujú vašim potrebám a rozpočtu. Každá izba je čistá, dobre udržiavané a navrhnutá na príjemný pobyt."
           tag="Ubytovanie"
           tagIcon={Home}
           tagAnimation="slide-up"
@@ -95,9 +95,9 @@ export default function LandingPage() {
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           products={[
-            { id: "1", name: "Súkromná izba", price: "Kontaktujte kvôli cenám", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=2", imageAlt: "Súkromná izba s posteľou" },
-            { id: "2", name: "Dvojlôžková izba", price: "Kontaktujte kvôli cenám", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg?_wi=2", imageAlt: "Dvojlôžková izba" },
-            { id: "3", name: "Spoločná izba", price: "Kontaktujte kvôli cenám", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=2", imageAlt: "Spoločná izba v hostelskom štýle" }
+            { id: "1", name: "Súkromná izba", price: "Cena na vyžiadanie", imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-working-with-her-laptop-bed_23-2147601448.jpg?_wi=2", imageAlt: "Súkromná izba s posteľou" },
+            { id: "2", name: "Dvojlôžková izba", price: "Cena na vyžiadanie", imageSrc: "http://img.b2bpic.net/free-photo/double-bed-with-four-pillows_1203-1107.jpg?_wi=2", imageAlt: "Dvojlôžková izba ubytovanie" },
+            { id: "3", name: "Zdieľaná izba", price: "Cena na vyžiadanie", imageSrc: "http://img.b2bpic.net/free-photo/friends-using-laptop-tablet-bed_23-2147766785.jpg?_wi=2", imageAlt: "Zdieľaný hostel štýlový pokoj" }
           ]}
         />
       </div>
@@ -107,7 +107,7 @@ export default function LandingPage() {
           tag="Rezervácie"
           tagIcon={Calendar}
           tagAnimation="slide-up"
-          title="Rezervujte si pobyt"
+          title="Rezervovať svoj pobyt"
           description="Vyberte si uprednostňované dátumy a typ izby a skontrolujte dostupnosť. Kontaktujte nás kvôli aktuálnym cenám a špeciálnym ponukám."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
@@ -117,13 +117,13 @@ export default function LandingPage() {
           mediaPosition="right"
           inputPlaceholder="vasa@email.com"
           buttonText="Skontrolovať dostupnosť"
-          termsText="Čoskoro sa vám ozývame s dostupnými dátumami a informáciami o cenách."
+          termsText="Skontaktujeme vás skoro s dostupnými dátumami a informáciami o cenách."
         />
       </div>
 
       <div id="reviews" data-section="reviews">
         <TestimonialCardFifteen
-          testimonial="Hostel 26 ponúka skvelé ubytovanie, keď je mestské centrum obsadené. Personál nám pomohol aj neskoro v noci so špeciálnymi požiadavkami. Čisté izby, priateľská atmosféra a vynikajúca cena za kvalitu ho robia našou najlepšou odporúčanou voľbou."
+          testimonial="Hostel 26 ponúka skvelé ubytovanie, keď je mestské centrum plné. Personál nám pomohol aj neskoro v noci s našimi špeciálnymi požiadavkami. Čisté izby, priateľská atmosféra a výborná cena za peniaze robia z neho našu najlepšiu rekomendáciu."
           rating={5}
           author="Roman Varga, Košice"
           ratingAnimation="slide-up"
@@ -133,14 +133,14 @@ export default function LandingPage() {
             { src: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg", alt: "Roman Varga" },
             { src: "http://img.b2bpic.net/free-photo/portrait-cute-smiling-boy-cafe_23-2148436234.jpg", alt: "Nikolas Kubík" },
             { src: "http://img.b2bpic.net/free-photo/man-green-shirt-smiling-confident_23-2148401382.jpg", alt: "Ján Boleček" },
-            { src: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg", alt: "Hosťový článok" }
+            { src: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg", alt: "Hosťovská recenzia" }
           ]}
         />
       </div>
 
       <div id="reviews-detail" data-section="reviews-detail">
         <SocialProofOne
-          title="Dôvera cestovateľov"
+          title="Dôverovať cestovateľmi"
           description="Na základe 87 recenzií s priemerným hodnotením 4,3 z 5 hviezd"
           tag="Hosťovské recenzie"
           tagIcon={Star}
@@ -148,7 +148,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           names={[
-            "Nádherný hostel s čistými a dobre vybranými izbami",            "Približne 10-15 minút chôdze od hlavného námestia",            "Flexibilita a ochota recepčného personálu",            "Skvelá poloha a pohodlný prístup k verejnej doprave",            "Priateľská atmosféra a pohostinné prostredie",            "Vynikajúci pomer ceny a kvality",            "Profesionálny a reagujúci manažérsky tím",            "Ideálne pre cestovateľov objavujúcich Košice"
+            "Krásny hostel s čistými a dobre vybranými izbami",            "Približne 10-15 minút chôdze od hlavného námestia",            "Flexibilita a užitočnosť personálu recepty",            "Skvelá poloha a vhodný prístup k verejnej doprave",            "Priateľská atmosféra a vítajúci prosredia",            "Výborná cena za peniaze a pohodlie",            "Profesionálny a reaktívny tím riadenia",            "Ideálny pre cestovateľov objavujúcich Košice"
           ]}
           speed={40}
           showCard={true}
@@ -158,8 +158,8 @@ export default function LandingPage() {
       <div id="location" data-section="location">
         <FeatureCardTwelve
           title="Poloha a dostupnosť"
-          description="Hostel 26 je strategicky umiestnený v Košiciach s pohodlným prístupom k verejnej doprave, miestnym atrakcií a historickému centru mesta. Naša centrálna poloha robí prieskum mesta ľahkým a príjemným."
-          tag="Objavte Košice"
+          description="Hostel 26 sa nachádza strategicky v Košiciach s vhodným prístupom k verejnej doprave, miestnym atrakciám a historickému centru mesta. Naša centrálna poloha umožňuje ľahké a príjemné objavovanie mesta."
+          tag="Objaviť Košice"
           tagIcon={MapPin}
           tagAnimation="slide-up"
           textboxLayout="default"
@@ -168,12 +168,12 @@ export default function LandingPage() {
           features={[
             {
               id: "address",              label: "Adresa",              title: "Tolstého 22, 040 01 Košice, Slovensko",              items: [
-                "Pešky dostupné do centra mesta",                "V blízkosti zastávky verejnej dopravy",                "V tesnej blízkosti reštaurácií a kavární",                "Prístup k turistickým atrakcií"
+                "Pešia vzdialenosť od centra mesta",                "Blízko stanice verejnej dopravy",                "Blízko reštaurácií a kaviarní",                "Prístup k turistickým atrakciám"
               ]
             },
             {
-              id: "attractions",              label: "V blízkosti",              title: "Objavte historické Košice",              items: [
-                "Historická katedrála sv. Alžbety",                "Hlavné námestie s divadlami",                "Botanická záhrada neďaleko",                "Múzeá a galérie",                "Obchody a stravovacia ponuka"
+              id: "attractions",              label: "Neďaleko",              title: "Objaviť historické Košice",              items: [
+                "Historická Katedrála svätej Alžbety",                "Hlavné námestie s divadlami",                "Botanická záhrada v blízkosti",                "Múzea a galerie",                "Možnosti nákupov a stravovania"
               ]
             }
           ]}
@@ -183,7 +183,7 @@ export default function LandingPage() {
       <div id="gallery" data-section="gallery">
         <BlogCardOne
           title="Fotogaléria"
-          description="Pozrite si vizuálny okruh Hostelu 26 a objavte naše pohodlné izby, pohostinné spoločné priestory a krásnu polohu v Košiciach."
+          description="Urobte si vizuálnu prechádzku Hostelu 26 a objavte naše pohodlné izby, vítajúce spoločné priestory a krásnu polohu Košíc."
           tag="Galéria"
           tagIcon={Images}
           tagAnimation="slide-up"
@@ -193,46 +193,16 @@ export default function LandingPage() {
           carouselMode="buttons"
           blogs={[
             {
-              id: "1",              category: "Izby",              title: "Pohodlné spálne",              excerpt: "Naše čisté a dobre udržiavané súkromné a spoločné izby poskytujú príjemné útočisko po prehliadke mesta.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=2",              imageAlt: "Spálňa hostelu",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg",              date: "2025"
+              id: "1",              category: "Izby",              title: "Pohodlné spálne",              excerpt: "Naše čisté a dobre udržiavané súkromné a zdieľané izby poskytujú pohodlný úkryt po objavovaní mesta.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-waking-up-morning_1153-3553.jpg?_wi=2",              imageAlt: "Hostel spálňa",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg",              date: "2025"
             },
             {
-              id: "2",              category: "Izby",              title: "Moderné vybavenie",              excerpt: "Každá izba je vybavená moderným nábytkom a kvalitným posteľným prádlom, aby ste si užili pokojný spánok.",              imageSrc: "http://img.b2bpic.net/free-photo/white-comfortable-pillow-decoration-interior-bedroom_74190-11125.jpg",              imageAlt: "Moderná hostelská izba",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/portrait-cute-smiling-boy-cafe_23-2148436234.jpg",              date: "2025"
+              id: "2",              category: "Izby",              title: "Moderné vybavenie",              excerpt: "Každá izba má moderný nábytok a vysoko kvalitné posteľné prádlo, aby ste si užili pokojnú noc.",              imageSrc: "http://img.b2bpic.net/free-photo/white-comfortable-pillow-decoration-interior-bedroom_74190-11125.jpg",              imageAlt: "Moderná hostel izba",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/portrait-cute-smiling-boy-cafe_23-2148436234.jpg",              date: "2025"
             },
             {
-              id: "3",              category: "Exteriér",              title: "Pohostinný vstup",              excerpt: "Náš charakteristický exteriér znamená teplý vítanú cestovateľom navštevujúcim Košice.",              imageSrc: "http://img.b2bpic.net/free-photo/city-building_23-2148107104.jpg",              imageAlt: "Exteriér hostelu",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/man-green-shirt-smiling-confident_23-2148401382.jpg",              date: "2025"
+              id: "3",              category: "Exteriér",              title: "Vítajúci vchod",              excerpt: "Náš charakteristický exteriér znamená teplé privítanie cestovateľov navštevujúcich Košice.",              imageSrc: "http://img.b2bpic.net/free-photo/city-building_23-2148107104.jpg",              imageAlt: "Hostel exteriér",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/man-green-shirt-smiling-confident_23-2148401382.jpg",              date: "2025"
             },
             {
-              id: "4",              category: "Spoločné priestory",              title: "Sociálne priestory",              excerpt: "Relaxujte a zoznámte sa s inými cestovateľmi v našich pohodlných spoločných priestoroch a salóne.",              imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=2",              imageAlt: "Spoločná zóna",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg",              date: "2025"
-            }
-          ]}
-        />
-      </div>
-
-      <div id="attractions" data-section="attractions">
-        <FeatureCardTwelve
-          title="Atrakcií v okolí"
-          description="Košice je plná historických a kultúrnych atrakcií. Naša poloha vám umožňuje ľahký prístup k najlepším miestam mesta."
-          tag="Čo navštíviť"
-          tagIcon={MapPin}
-          tagAnimation="slide-up"
-          textboxLayout="default"
-          animationType="slide-up"
-          useInvertedBackground={false}
-          features={[
-            {
-              id: "culture",              label: "Kultúra",              title: "Historické pamiatky",              items: [
-                "Katedrála sv. Alžbety – gotická architekúra",                "Mestský divadelný komplex",                "Staré mestské múzeum",                "Tradičné remeslá a umenie"
-              ]
-            },
-            {
-              id: "nature",              label: "Príroda",              title: "Zelené priestory",              items: [
-                "Mestská botanická záhrada",                "Tabakulový strom – miesto stretávania",                "Parky a oddychové zóny",                "Okolo mesta les Košickej vrchoviny"
-              ]
-            },
-            {
-              id: "dining",              label: "Gastronómia",              title: "Miestne kuchyne",              items: [
-                "Tradičné slovenskej kuchyne",                "Medzinárodné reštaurácie",                "Kavárne a caféčka",                "Miestne tržnice s čerstvým jedlom"
-              ]
+              id: "4",              category: "Spoločné priestory",              title: "Spoločenské priestory",              excerpt: "Relaxujte a stretávajte sa s ďalšími cestovateľmi v našich pohodlných spoločných priestoroch a lounge.",              imageSrc: "http://img.b2bpic.net/free-photo/colleagues-talking-learning-study-session_23-2149285455.jpg?_wi=2",              imageAlt: "Spoločná oblasť lounge",              authorName: "Hostel 26",              authorAvatar: "http://img.b2bpic.net/free-photo/purposeful-young-businessman-looking-away_1262-3609.jpg",              date: "2025"
             }
           ]}
         />
@@ -243,8 +213,8 @@ export default function LandingPage() {
           tag="Kontaktujte nás"
           tagIcon={Mail}
           tagAnimation="slide-up"
-          title="Kontakt na Hostel 26"
-          description="Máte otázky ohľadom rezervácie? Potrebujete špeciálne ubytovanie? Náš priateľský tím je tu, aby vám pomohol. Pošlite nám správu a my vám odpovedáme čo najskôr."
+          title="Kontakt Hostel 26"
+          description="Máte otázky ohľadom rezervácie? Potrebujete špeciálne ubytovanie? Náš priateľský tím je tu, aby vám pomohol. Pošlite nám správu a my odpovedáme rýchlo."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/pillow-bed_74190-6245.jpg?_wi=3"
@@ -253,7 +223,7 @@ export default function LandingPage() {
           mediaPosition="left"
           inputPlaceholder="vase.meno@email.com"
           buttonText="Poslať správu"
-          termsText="Telefón: +421 910 122 556 | Vstup: 14:00 | Odpovedáme do 24 hodín."
+          termsText="Telefón: +421 910 122 556 | Vstup: 14:00 | Odpovedáme v priebehu 24 hodín."
         />
       </div>
 
@@ -273,28 +243,28 @@ export default function LandingPage() {
                 { label: "Rezervovať teraz", href: "#booking" },
                 { label: "Galéria", href: "#gallery" },
                 { label: "Kontakt", href: "#contact" },
-                { label: "Atrakcií", href: "#attractions" }
+                { label: "Ceny", href: "#" }
               ]
             },
             {
-              title: "Informácie",              items: [
+              title: "Info",              items: [
                 { label: "Tolstého 22, Košice", href: "#location" },
                 { label: "+421 910 122 556", href: "tel:+421910122556" },
                 { label: "Vstup: 14:00", href: "#" },
-                { label: "Pravidlá", href: "#" }
+                { label: "Politiky", href: "#" }
               ]
             },
             {
               title: "Právne",              items: [
                 { label: "Politika ochrany osobných údajov", href: "#" },
-                { label: "Podmienky a zmluvy", href: "#" },
+                { label: "Všeobecné podmienky", href: "#" },
                 { label: "Politika zrušenia", href: "#" },
                 { label: "Politika cookies", href: "#" }
               ]
             }
           ]}
           bottomLeftText="© 2025 Hostel 26 Košice. Všetky práva vyhradené."
-          bottomRightText="Vytvorené pre pohodlné cestovanie"
+          bottomRightText="Vyrobené pre pohodlné cestovanie"
         />
       </div>
     </ThemeProvider>
